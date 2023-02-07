@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+n",
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.terminal.new",
+        "when": "terminal Focus"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    }
+]

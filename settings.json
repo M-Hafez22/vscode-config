@@ -1,0 +1,155 @@
+{
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "explorer.confirmDelete": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python3",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runhaskell",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    },
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "editor.fontSize": 16,
+    "js/ts.implicitProjectConfig.checkJs": true,
+    "update.showReleaseNotes": false,
+    "open-in-browser.default": "firefox",
+    "editor.fontLigatures": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.fontFamily":"'fira code nerd','Powerline', 'Cascadia Code', 'Droid Sans Mono', 'twemoji', 'monospace', monospace, 'Droid Sans Fallback'",
+    "prettier.semi": false,
+    "prettier.arrowParens": "avoid",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontFamily": "'MesloLGM Nerd Font','Cascadia Code', 'Droid Sans Mono', 'twemoji', 'monospace', monospace, 'Droid Sans Fallback'",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.pdf": "mergeEditor.Input"
+    },
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.renderWhitespace": "all",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "settingsSync.ignoredSettings": [
+        "jest.showCoverageOnLoad",
+        "editor.formatOnSave"
+    ],
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "prettier.vueIndentScriptAndStyle": true,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "gitmoji.outputType": "emoji",
+    "json.schemas": [
+    
+    ],
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Issues",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ],
+    "editor.minimap.enabled": false,
+    "glassit.alpha": 255,
+    "editor.cursorBlinking": "expand",
+    "editor.formatOnSave": true,
+    "editor.linkedEditing": true,
+    "workbench.panel.defaultLocation": "right",
+    "terminal.integrated.fontWeightBold": "bold",
+    "vite.base": "google-chrome",
+    "browse-lite.chromeExecutable": "/usr/bin/google-chrome",
+}
