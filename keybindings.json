@@ -1,27 +1,27 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "ctrl+shift+down",
+    "key": "ctrl+shift+o",
     "command": "workbench.action.decreaseViewSize"
   },
   {
-    "key": "ctrl+shift+up",
+    "key": "ctrl+shift+i",
     "command": "workbench.action.increaseViewSize"
   },
   {
-    "key": "ctrl+left",
+    "key": "ctrl+shift+left",
     "command": "workbench.action.navigateLeft"
   },
   {
-    "key": "ctrl+right",
+    "key": "ctrl+shift+right",
     "command": "workbench.action.navigateRight"
   },
   {
-    "key": "ctrl+up",
+    "key": "ctrl+shift+up",
     "command": "workbench.action.navigateUp"
   },
   {
-    "key": "ctrl+down",
+    "key": "ctrl+shift+down",
     "command": "workbench.action.navigateDown"
   }
     
